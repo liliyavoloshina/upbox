@@ -1,12 +1,14 @@
 <template>
   <TheNavbar />
+  <TheHero />
 </template>
 
 <script>
-import TheNavbar from './components/TheNavbar.vue';
+import TheNavbar from './components/TheNavbar.vue'
+import TheHero from './components/TheHero.vue'
 export default{
   name: 'App',
-  components: {TheNavbar}
+  components: {TheNavbar, TheHero}
 }
 </script>
 
