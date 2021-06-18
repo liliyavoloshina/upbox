@@ -1,6 +1,7 @@
 <template>
   <header :class="{ '-translate-y-full': !showHeader }"
-    class="fixed top-0 inset-x-0 bg-white shadow-sm transform translate-none md:flex md:items-center md:justify-between transition duration-200 ease-linear">
+    class="fixed top-0 inset-x-0 z-10 bg-white shadow-sm transform translate-none md:flex md:items-center md:justify-between transition duration-200 ease-linear">
+    <div class="container mx-auto">
     <div class="absolute top-0 right-0 left-0 h-1">
       <img src="../assets/img/topbar.png" alt="Topbar" class="w-full h-full object-cover">
     </div>
@@ -19,7 +20,7 @@
         </button>
       </div>
     </div>
-    <nav :class="isNavOpen ? 'block' : 'hidden'">
+    <nav :class="isNavOpen ? 'block' : 'hidden'" class="md:block">
       <ul>
         <li class="md:inline-block"><a href="#" class="block  py-2 pl-6 focus:bg-pink-200">THIS MONTH</a></li>
         <li class="md:inline-block"><a href="#" class="block py-2 pl-6 focus:bg-pink-200">SKIN</a></li>
@@ -33,6 +34,7 @@
         </li>
       </ul>
     </nav>
+    </div>
   </header>
 </template>
 
