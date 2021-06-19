@@ -1,7 +1,7 @@
 <template>
-  <section class="relative min-h-screen bg-purple-50 md:flex md:overflow-hidden">
-    <div class="container mx-auto">
-      <div class="px-6 pt-36 md:w-1/2 md:pt-40">
+  <section class="relative bg-purple-50 md:overflow-hidden">
+    <div class="container min-h-screen mx-auto flex flex-col md:flex-row md:items-center">
+      <div class="w-full h-full px-6 pt-36 md:w-2/3 z-20 lg:w-1/2">
         <h1 class="text-5xl font-dm-heading md:text-6xl">Look good without leaving your house.</h1>
         <p class="mt-4">Upbox is the easiest way to look your best without having to hunt for the perfect makeup
           combination. Our stylists curate the latest trends and send them directly to your door every month.</p>
@@ -10,9 +10,13 @@
           UP</button>
       </div>
       <img src="../assets/img/marker.png" alt="Marker" class="absolute top-44 right-0 hidden md:block lg:top-40">
-      <div class="absolute bottom-0 right-0 w-full md:-right-56 lg:w-2/3">
-        <img src="../assets/img/box-hero.png" alt="Box Hero" class="object-contain w-full">
+      <div class="relative w-full h-1/2">
+        <div class="absolute bottom-0 right-0 w-full h-full">
+        <!-- <div class="absolute bottom-0 right-0 w-full h-full md:-right-72 lg:-right-20 lg:w-3/4"> -->
+          <img src="../assets/img/box-hero.png" alt="Box Hero" class="object-contain w-full">
+        </div>
       </div>
+
     </div>
   </section>
 </template>
