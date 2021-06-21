@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white">
+  <section class="bg-white">
     <div class="container mx-auto grid md:grid-cols-2 pt-24 gap-5">
       <div class="col-span-full flex flex-col items-center mb-24">
         <h1 class="text-4xl font-dm-heading">Pick your plan</h1>
@@ -22,6 +22,5 @@
       
       <div class="col-span-full text-lg">Your plan auto-renews at the end of 30 days from the 1st day you signed-up.</div>
     </div>
-    
-  </div>
+  </section>
 </template>

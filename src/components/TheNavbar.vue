@@ -1,6 +1,6 @@
 <template>
   <header :class="{ '-translate-y-full': !showHeader }"
-    class="fixed top-0 inset-x-0 z-40 bg-white shadow-sm transform translate-none transition duration-200 ease-linear">
+    class="fixed top-0 inset-x-0 z-40 bg-white shadow-lg transform translate-none transition duration-200 ease-linear">
     <div class="md:flex md:items-center md:justify-between container mx-auto">
     <div class="absolute top-0 right-0 left-0 h-1">
       <img src="../assets/img/topbar.png" alt="Topbar" class="w-full h-full object-cover">
