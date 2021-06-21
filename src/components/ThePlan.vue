@@ -1,6 +1,6 @@
 <template>
   <section class="bg-white">
-    <div class="container mx-auto grid md:grid-cols-2 pt-24 gap-5">
+    <div class="container mx-auto grid px-5 pt-24 gap-5 md:grid-cols-2">
       <div class="col-span-full flex flex-col items-center mb-24">
         <h1 class="text-4xl font-dm-heading">Pick your plan</h1>
         <img src="../assets/img/underline.png" class="w-64">

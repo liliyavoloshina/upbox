@@ -1,5 +1,5 @@
 module.exports = {
-	purge: [],
+	purge: {enabled: true, content: ['./src/**/*.html', './src/**/*.vue', './src/**/*.jsx']},
 	darkMode: false, // or 'media' or 'class'
 	theme: {
 		extend: {
@@ -16,5 +16,5 @@ module.exports = {
 	variants: {
 		extend: {}
 	},
-	plugins: []
+	plugins: [require('tailwind-scrollbar')]
 }

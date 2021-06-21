@@ -1,6 +1,6 @@
 <template>
   <section class="bg-white">
-    <div class="container mx-auto grid pt-48 pb-24 gap-y-10 md:gap-y-32 ">
+    <div class="container mx-auto grid px-5 pt-48 pb-24 gap-y-10 md:gap-y-32 ">
       <div class="col-span-full flex flex-col items-center">
         <h1 class="text-4xl font-dm-heading">How it works?</h1>
         <img src="../assets/img/underline.png" class="w-64">
