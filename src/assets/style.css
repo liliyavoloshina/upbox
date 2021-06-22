@@ -3,3 +3,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-dm-base bg-gray-200 scrollbar scrollbar-thumb-red-300 scrollbar-thin scrollbar-track-white;
+  }
+}
