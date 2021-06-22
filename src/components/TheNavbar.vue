@@ -10,7 +10,7 @@
         <img src="../assets/img/Logo.png" alt="UpBox Logo">
       </div>
       <div class="md:hidden">
-        <button @click="isNavOpen = !isNavOpen" type="button"
+        <button @click="isNavOpen = !isNavOpen" type="button" aria-label="navbar-button"
           class="text-grey-100 focus:outline-none focus:ring focus:ring-pink-500">
           <svg class="w-8 h-8 fill-current" viewBox="0 0 24 24" stroke="currentColor">
             <path v-if="!isNavOpen" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"

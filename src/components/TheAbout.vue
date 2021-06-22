@@ -3,7 +3,7 @@
     <div class="container mx-auto grid px-5 pt-48 pb-24 gap-y-10 md:gap-y-32 ">
       <div class="col-span-full flex flex-col items-center">
         <h1 class="text-4xl font-dm-heading">How it works?</h1>
-        <img src="../assets/img/underline.png" class="w-64">
+        <img src="../assets/img/underline.png" alt="Underline" class="w-64">
       </div>
       <div class="justify-self-start flex items-center justify-center flex-wrap">
         <img src="../assets/img/about-1.png" alt="How It Works One" class="flex-2">
