@@ -3,7 +3,7 @@
     <div class="container grid gap-5 mx-auto px-5 py-24 md:grid-cols-2 lg:grid-cols-4">
       <div class="col-span-full flex flex-col items-center mb-24">
         <h1 class="text-4xl font-dm-heading">Social Posts</h1>
-        <img src="../assets/img/underline.png" class="w-64">
+        <img src="../assets/img/underline.png" alt="Underline" class="w-64">
       </div>
       <a href="#" class="flex flex-col shadow-md bg-white">
         <div class="h-80">
